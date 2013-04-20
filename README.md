@@ -138,15 +138,3 @@ Licensed under the [MIT License][MIT].
 Distributed under the [MIT License][MIT].  
 
 [MIT]: http://www.opensource.org/licenses/mit-license.php
-
-
-    
-    /**/
-    $nich->host  = 'kohada.2ch.net';
-    $nich->board = 'be';
-    $nich->id    = '1344518750';
-    
-    $list = $nich->getThread();
-    echo count($list);
-    print_r($list);
-    
