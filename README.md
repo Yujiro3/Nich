@@ -6,14 +6,18 @@
 ------
 
 ### コンストラクタ ###
-    include 'Nich/Nich.php';
-    $nich = new Nich();
-    
+```php
+include 'Nich/Nich.php';
+$nich = new Nich();
+```    
+
 
 ### カテゴリリストの取得 ###
-    $list = $nich->getCategories();
-    print_r($list);
-    
+```php
+$list = $nich->getCategories();
+print_r($list);
+```    
+
 
     Array
     (
@@ -23,10 +27,12 @@
     
 
 ### スレッドリストの取得 ###
-    $nich->thread = 'be';    // カテゴリリストのキーを設定する
-    $list = $nich->getThreads();
-    print_r($list);
-    
+```php
+$nich->thread = 'be';    // カテゴリリストのキーを設定する
+$list = $nich->getThreads();
+print_r($list);
+```    
+
 
     Array
     (
@@ -39,11 +45,13 @@
     
 
 ### スレッドタイトルの取得 ###
-    $nich->host  = 'kohada.2ch.net';
-    $nich->board = 'be';
-    $list = $nich->getSubjects();
-    print_r($list);
-    
+```php
+$nich->host  = 'kohada.2ch.net';
+$nich->board = 'be';
+$list = $nich->getSubjects();
+print_r($list);
+```    
+
 
     Array
     (
@@ -56,13 +64,15 @@
 
 
 ### スレッド内容の取得 ###
-    $nich->host  = 'kohada.2ch.net';
-    $nich->board = 'be';
-    $nich->id    = '1344847411';    // スレッドタイトルのキーを設定する
-    
-    $list = $nich->getBoard();
-    print_r($list);
-    
+```php
+$nich->host  = 'kohada.2ch.net';
+$nich->board = 'be';
+$nich->id    = '1344847411';    // スレッドタイトルのキーを設定する
+
+$list = $nich->getBoard();
+print_r($list);
+```    
+
 
     Array
     (
@@ -84,14 +94,16 @@
             )
     
 
-### スレッド内容の取得 ###
-    $nich->host  = 'kohada.2ch.net';
-    $nich->board = 'be';
-    $nich->id    = '1344518750';    // スレッドタイトルのキーを設定する
-    
-    $list = $nich->getThread();
-    print_r($list);
-    
+### スレッド内容の取得（ソート済み） ###
+```php
+$nich->host  = 'kohada.2ch.net';
+$nich->board = 'be';
+$nich->id    = '1344518750';    // スレッドタイトルのキーを設定する
+
+$list = $nich->getThread();
+print_r($list);
+```    
+
 
     Array
     (
