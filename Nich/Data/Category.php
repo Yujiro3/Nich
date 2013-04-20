@@ -1,0 +1,51 @@
+<?php
+/**
+ * Nichanカテゴリリスト
+ *
+ * @package         Nich
+ * @author          Yujiro Takahashi <yujiro3@gamil.com>
+ */
+return array(
+    'quake'         => '地震',
+    'pickup'        => 'おすすめ',
+    'be'            => 'be',
+    'news'          => 'ニュース',
+    'affairs'       => '世界情勢',
+    'guide'         => '案内',
+    'operation'     => '運営',
+    'coziness'      => '馴れ合い',
+    'aa'            => 'AA',
+    'social'        => '社会',
+    'company'       => '会社・職業',
+    'gangland'      => '裏社会',
+    'culture'       => '文化',
+    'science'       => '学問・理系',
+    'literature'    => '学問・文系',
+    'electronics'   => '家電製品',
+    'economics'     => '政治経済',
+    'meals'         => '食文化',
+    'life'          => '生活',
+    'neta'          => 'ネタ雑談',
+    'category'      => 'カテゴリ雑談',
+    'live'          => '実況ch',
+    'study'         => '受験・学校',
+    'pursuit'       => '趣味',
+    'sports'        => 'スポーツ一般',
+    'ball'          => '球技',
+    'combat'        => '格闘技',
+    'trip'          => '旅行・外出',
+    'tv'            => 'テレビ等',
+    'entertainment' => '芸能',
+    'gamble'        => 'ギャンブル',
+    'game'          => 'ゲーム',
+    'portable'      => '携帯型ゲーム',
+    'online'        => 'ネットゲーム',
+    'comic'         => '漫画・小説等',
+    'music'         => '音楽',
+    'health'        => '心と身体',
+    'computer'      => 'ＰＣ等',
+    'network'       => 'ネット関係',
+    'chat2'         => '雑談系２',
+    'pink'          => 'BBSPINK',
+    'community'     => 'まちＢＢＳ',
+);
